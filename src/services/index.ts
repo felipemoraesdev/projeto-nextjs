@@ -11,7 +11,6 @@ export async function handleClickWhatsApp(msg: string) {
       
     } catch (err) {
       console.log(err)
-      window.open(`https://api.whatsapp.com/send?phone=5541984525562&text=${msgQuery}`, '_blank');
     }
 
 }
